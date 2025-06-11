@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useLike } from './LikeContext';
 
 const bodypartStretch = [
   { name: "손목 스트레칭", image: "./IMG/Stretch/part01.png" },
@@ -25,6 +26,7 @@ const purposeStretch = [
 const Stretch = () => {
   const [selectedTab, setSelectedTab] = useState('bodypart');
   const [likedItems, setLikedItems] = useState([]);
+  const { toggleLike, isLiked } = useLike();
 
   const getCurrentList = () => {
     switch (selectedTab) {
@@ -37,20 +39,16 @@ const Stretch = () => {
     }
   };
 
-  const handleLike = (item) => {
-    setLikedItems(prev => {
-      const isAlreadyLiked = prev.some(liked => liked.name === item.name);
-      if (isAlreadyLiked) {
-        return prev.filter(liked => liked.name !== item.name);
-      } else {
-        return [...prev, item];
+  // 스트레칭 좋아요 토글 함수
+    const handleLike = (stretch) => {
+      const stretchData = {
+        id: stretch.name, // 고유 식별자 (이름 기반)
+        name: stretch.name, // 스트레칭 이름
+        image: stretch.image // 이미지 경로
       }
-    });
-  };
-
-  const isLiked = (itemName) => {
-    return likedItems.some(liked => liked.name === itemName);
-  };
+        toggleLike(stretchData, '스트레칭'); // Context 함수 호출 (유형: 스트레칭)
+        
+      };
 
   const renderGroupedCards = () => {
     const currentData = getCurrentList();
@@ -80,7 +78,7 @@ const Stretch = () => {
                     }}
                   >
                     <img 
-                      src={isLiked(item.name) ? './IMG/heart.png' : './IMG/heart_Empty.png'} 
+                      src={isLiked(item.name, '스트레칭') ? './IMG/heart.png' : './IMG/heart_Empty.png'} 
                       alt="heart" 
                       style={styles.heartIcon}
                     />
