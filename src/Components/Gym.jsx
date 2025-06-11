@@ -103,8 +103,8 @@ const Gym = () => {
 
       <div style={styles.wrapper}>
         {/* 리스트 제목 */}
-        <span style={{fontSize:'1.7vw', fontWeight: '600', color: '#fff', padding: '2.8vh 0.7vw 2.8vh 0'}}>암장</span>
-        <span style={{fontSize:'1.3vw', fontWeight: '600', color: '#fff'}}>서울</span>
+        <span style={{fontSize:'1.5vw', fontWeight: '600', color: '#fff', padding: '2.8vh 0.7vw 2.8vh 0'}}>암장</span>
+        <span style={{fontSize:'1vw', fontWeight: '600', color: '#fff',}}>서울</span>
 
         {/* 리스트 그리드   */}
         <div style={styles.grid}>
@@ -186,7 +186,7 @@ const styles = {
     gap: '6.9vw',
     marginBottom: '7vh',
     boxSizing: 'border-box',
-    marginTop: '1.4vh'
+    marginTop: '8vh'
   },
   cardContainer: {
     position: 'relative',
@@ -222,14 +222,15 @@ const styles = {
   },
   gymName: {
     fontWeight: '600',
-    fontSize: '0.7vw',
+    fontSize: '1.15vw',
     textAlign: 'center',
     color: '#fff',
+    marginTop: '0.5vh',
     paddingRight: '1.4vw',
     left: '0'
   },
   gymAddress: {
-    fontSize: '0.56vw',
+    fontSize: '0.9vw',
     color: 'rgba(255, 255, 255, .8)',
     textAlign: 'center',
     marginTop: '0.18vh',

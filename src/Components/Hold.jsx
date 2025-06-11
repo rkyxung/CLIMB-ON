@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // 홀드 데이터
 export const Holds = [
@@ -9,7 +10,7 @@ export const Holds = [
   { name: '슬로퍼 (Sloper)', image: './IMG/Holds/Hold05.png', top: '35%', left: '20%' },
   { name: '엣지 (Edge)', image: './IMG/Holds/Hold06.png', top: '35%', left: '40%' },
   { name: '레일 (Rail)', image: './IMG/Holds/Hold07.png', top: '35%', left: '60%' },
-  { name: '포켓 (Pocket)', image: '/.IMG/Holds/Hold08.png', top: '35%', left: '80%' },
+  { name: '포켓 (Pocket)', image: './IMG/Holds/Hold08.png', top: '35%', left: '80%' },
   { name: '플랫 (Flat)', image: './IMG/Holds/Hold09.png', top: '55%', left: '20%' },
   { name: '언더클링 (Undercling)', image: './IMG/Holds/Hold10.png', top: '55%', left: '40%' },
   { name: '사이드풀 (Sidepull)', image: './IMG/Holds/Hold11.png', top: '55%', left: '60%' },
@@ -39,10 +40,7 @@ const holdPositions = [
 const Hold = () => {
   const [hoveredHold, setHoveredHold] = useState(null);
 
-  const handleHoldClick = (holdName) => {
-    // 실제 라우터 구현 시 navigate 함수로 교체
-    alert(`${holdName} 세부 페이지로 이동`);
-  };
+  // handleHoldClick 함수는 더 이상 필요하지 않음 (Link 컴포넌트 사용)
 
   return (
     <div>
@@ -68,33 +66,37 @@ const Hold = () => {
 
           {/* 홀드들 */}
           {Holds.map((hold, i) => (
-            <div
+            <Link 
               key={i}
-              style={{
-                position: 'absolute',
-                top: holdPositions[i].top,
-                left: holdPositions[i].left,
-                transform: 'translate(-50%, -50%)',
-                zIndex: 2,
-              }}
-              onMouseEnter={() => setHoveredHold(i)}
-              onMouseLeave={() => setHoveredHold(null)}
-              onClick={() => handleHoldClick(hold.name)}
+              to="/HoldDetail" 
+              style={{ textDecoration: 'none' }}
             >
-              {/* 홀드 이미지 */}
-              <img
-                src={hold.image}
-                alt={hold.name}
-                style={styles.holdMarker}
-              />
-              
-              {/* 호버 시 이미지 위에 나타나는 텍스트 */}
-              {hoveredHold === i && (
-                <div style={styles.hoverText}>
-                  {hold.name}
-                </div>
-              )}
-            </div>
+              <div
+                style={{
+                  position: 'absolute',
+                  top: holdPositions[i].top,
+                  left: holdPositions[i].left,
+                  transform: 'translate(-50%, -50%)',
+                  zIndex: 2,
+                }}
+                onMouseEnter={() => setHoveredHold(i)}
+                onMouseLeave={() => setHoveredHold(null)}
+              >
+                {/* 홀드 이미지 */}
+                <img
+                  src={hold.image}
+                  alt={hold.name}
+                  style={styles.holdMarker}
+                />
+                
+                {/* 호버 시 이미지 위에 나타나는 텍스트 */}
+                {hoveredHold === i && (
+                  <div style={styles.hoverText}>
+                    {hold.name}
+                  </div>
+                )}
+              </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -169,9 +171,9 @@ const styles = {
   },
   hoverText: {
     position: 'absolute',
-    top: '-30%',
+    top: '50%',
     left: '50%',
-    transform: 'translate(-50%)',
+    transform: 'translate(-50%, -50%)',
     color: '#9CFF23',
     fontSize: '1vw',
     fontWeight: '700',
@@ -188,8 +190,8 @@ const styles = {
 const styleSheet = document.createElement('style');
 styleSheet.textContent = `
   @keyframes fadeIn {
-    from { opacity: 0; transform: translate(-50%) scale(0.8); }
-    to { opacity: 1; transform: translate(-50%) scale(1); }
+    from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+    to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
   }
 `;
 document.head.appendChild(styleSheet);
