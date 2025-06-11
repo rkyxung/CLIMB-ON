@@ -50,7 +50,7 @@ const GearDetail = () => {
           <div style={styles.imageSection}>
             <div style={styles.imageContainer}>
               <img
-                src="/IMG/Shoes/XT.png"
+                src="./IMG/Shoes/XT.png"
                 alt="드라고 XT 암벽화"
                 style={styles.productImage}
               />

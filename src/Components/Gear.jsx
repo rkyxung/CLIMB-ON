@@ -279,7 +279,7 @@ const Gear = () => {
       {/* 메인 배너 */}
       <section>
       <img
-        src="/IMG/Banner/GearBanner.png"
+        src="./IMG/Banner/GearBanner.png"
         alt="Banner"
         style={styles.banner}
       />
@@ -372,7 +372,7 @@ const Gear = () => {
                   onClick={() => handleLike(item)}
                 >
                   <img 
-                    src={isLiked(item.name, '장비') ? '/IMG/heart.png' : '/IMG/heart_Empty.png'}  
+                    src={isLiked(item.name, '장비') ? './IMG/heart.png' : './IMG/heart_Empty.png'}  
                     alt="heart" 
                     style={styles.heartIcon}
                   />
