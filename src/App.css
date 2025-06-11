@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.rotate-on-hover {
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.rotate-on-hover:hover {
+  transform: rotateY(180deg);
+}
+
+
+.previewScroll::-webkit-scrollbar {
+  height: 4px; /* 세로면 width */
+}
+
+.previewScroll::-webkit-scrollbar-track {
+  background: transparent; /* 트랙(배경) */
+}
+
+.previewScroll::-webkit-scrollbar-thumb {
+  background-color: #56CD27; /* 스크롤 손잡이 */
+  border-radius: 3px;
+}
+
+.previewScroll::-webkit-scrollbar-thumb:hover {
+  background-color: #44a51f;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%) rotate(-3deg);
+  }
+  100% {
+    transform: translateX(-200%) rotate(-3deg);
+  }
+}
