@@ -73,7 +73,11 @@ const Stretch = () => {
                   <img src={item.image} alt={item.name} style={styles.image} />
                   <button
                     style={styles.heartButton}
-                    onClick={() => handleLike(item)}
+                    onClick={(e) => {
+                      e.preventDefault(); 
+                      e.stopPropagation(); 
+                      handleLike(item);   
+                    }}
                   >
                     <img 
                       src={isLiked(item.name) ? './IMG/heart.png' : './IMG/heart_Empty.png'} 
