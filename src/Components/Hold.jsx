@@ -21,20 +21,20 @@ export const Holds = [
 
 // 실제 위치 좌표
 const holdPositions = [
-  { top: '10%', left: '20%' }, // 저그
-  { top: '10%', left: '80%' }, // 크림프
-  { top: '20%', left: '57%' }, // 오픈 크림프
-  { top: '75%', left: '93%' }, // 핀치
-  { top: '19%', left: '8%' }, // 슬로퍼
-  { top: '29%', left: '32%' }, // 엣지
-  { top: '29%', left: '69%' }, // 레일
-  { top: '38%', left: '57%' }, // 포켓
+  { top: '11%', left: '22%' }, // 저그
+  { top: '11%', left: '78%' }, // 크림프
+  { top: '21%', left: '57.5%' }, // 오픈 크림프
+  { top: '75.2%', left: '92.5%' }, // 핀치
+  { top: '20%', left: '8%' }, // 슬로퍼
+  { top: '29%', left: '28%' }, // 엣지
+  { top: '29%', left: '71%' }, // 레일
+  { top: '38%', left: '57.5%' }, // 포켓
   { top: '38%', left: '8%' }, // 플랫
-  { top: '47%', left: '45%' }, // 언더클링
-  { top: '47%', left: '80%' }, // 사이드풀
-  { top: '57%', left: '20%' }, // 가스통
-  { top: '66%', left: '56%' }, // 볼륨
-  { top: '75%', left: '7%' }, // 핀치볼륨
+  { top: '47%', left: '44.5%' }, // 언더클링
+  { top: '47%', left: '78.5%' }, // 사이드풀
+  { top: '57.5%', left: '21.5%' }, // 가스통
+  { top: '66.3%', left: '56.5%' }, // 볼륨
+  { top: '75.2%', left: '7.5%' }, // 핀치볼륨
 ];
 
 const Hold = () => {
@@ -105,9 +105,8 @@ const Hold = () => {
 
 const styles = {
   wrapper: {
-    maxWidth: '1440px',
+    maxWidth: '75vw',
     margin: '0 auto',
-    padding: '0 8vw',
     boxSizing: 'border-box'
   },
   banner: {

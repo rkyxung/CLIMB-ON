@@ -422,7 +422,7 @@ const styles = {
   },
   bannerDescription: {
     position: 'absolute',
-    fontSize: '16px',
+    fontSize: '0.8vw',
     fontWeight: '300',
     color: 'rgba(255,255,255,.7)',
     lineHeight: '1.7',
@@ -431,15 +431,15 @@ const styles = {
   },
   tab: {
     display: 'flex',
-    gap: '2rem',
+    gap: '2vw',
     fontWeight: '500',
     color: '#fff',
     justifyContent: 'center',
-    marginBottom: '5rem',
+    marginBottom: '5vw',
   },
 
   tabItem: {
-    padding: '0.5rem 0',
+    padding: '0.5vw 0',
     borderBottom: '2px solid transparent',
     transition: 'all 0.3s ease',
     fontSize: '1rem',
@@ -451,13 +451,13 @@ const styles = {
     color: '#9CFF23',
   },
   grid: {
-    maxWidth: '960px',
+    maxWidth: '100%',
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: '120px',
-    marginBottom: '10rem',
+    gap: '6.25vw',
+    marginBottom: '10vw',
     boxSizing: 'border-box',
-    marginTop: '2rem',
+    marginTop: '2vw',
     margin: '0 auto'
   },
   cardContainer: {
@@ -466,57 +466,57 @@ const styles = {
   card: {
     position: 'relative',
     backgroundColor: '#EAEAEA',
-    height: '300px',
+    height: '15.625vw',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '1rem',
+    padding: '1vw',
     margin: '0 auto',
   },
   card01: {
     position: 'absolute',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    padding: '1rem',
+    padding: '1vw',
     margin: '0 auto'
   },
   shoeLogo: {
     width: '70%',
     height: 'auto',
     objectFit: 'contain',
-    marginBottom: '1rem'
+    marginBottom: '1vw'
   },
   shoeLabelRow: {
     width: '100%',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    gap: '0.5rem',
+    gap: '0.5vw',
     margin: '0 auto',
-    marginTop: '0.5rem'
+    marginTop: '0.5vw'
   },
   
   nameWithBrand: {
     display: 'flex',
     alignItems: 'baseline',
-    gap: '0.5rem'
+    gap: '0.5vw'
   },
   
   shoeName: {
     fontWeight: '600',
-    fontSize: '1rem',
+    fontSize: '0.8vw',
     color: '#fff'
   },
   
   shoeBrand: {
-    fontSize: '0.75rem',
+    fontSize: '0.5vw',
     color: 'rgba(255, 255, 255, .8)'
   },
   
   shoePrice: {
     fontWeight: '600',
-    fontSize: '1rem',
+    fontSize: '0.8vw',
     color: '#fff'
   },
 

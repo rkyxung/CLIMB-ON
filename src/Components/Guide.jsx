@@ -295,7 +295,7 @@ const styles = {
 
   // 가운데 이미지
   centerImage: {
-    maxWidth: '450%',
+    maxWidth: '200%',
     maxHeight: '50%',
     objectFit: 'contain',
     position: 'relative',
@@ -314,7 +314,7 @@ const styles = {
   itemTitle: {
     position: 'relative',
     top: '-3vw',
-    left: '4vw',
+    left: '1vw',
     width: '35vw',
     fontSize: '5vw',
     fontWeight: 'bold',
@@ -329,8 +329,8 @@ const styles = {
   itemDescription: {
       position: 'relative',
     display: 'flex',
-    top: '15.5vw',
-    left: '12vw',
+    top: '21vw',
+    left: '9vw',
     fontSize: '1rem',
     lineHeight: '1.8',
     color: '#ccc',
