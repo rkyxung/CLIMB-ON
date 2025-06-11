@@ -2,20 +2,20 @@ import React, { useState } from 'react';
 
 // 홀드 데이터
 export const Holds = [
-  { name: '저그 (Jug)', image: '/IMG/Holds/Hold01.png', top: '15%', left: '20%' },
-  { name: '크림프 (Crimp)', image: '/IMG/Holds/Hold02.png', top: '15%', left: '40%' },
-  { name: '오픈 크림프 (Open Crimp)', image: '/IMG/Holds/Hold03.png', top: '15%', left: '60%' },
-  { name: '핀치 (Pinch)', image: '/IMG/Holds/Hold04.png', top: '15%', left: '80%' },
-  { name: '슬로퍼 (Sloper)', image: '/IMG/Holds/Hold05.png', top: '35%', left: '20%' },
-  { name: '엣지 (Edge)', image: '/IMG/Holds/Hold06.png', top: '35%', left: '40%' },
-  { name: '레일 (Rail)', image: '/IMG/Holds/Hold07.png', top: '35%', left: '60%' },
-  { name: '포켓 (Pocket)', image: '/IMG/Holds/Hold08.png', top: '35%', left: '80%' },
-  { name: '플랫 (Flat)', image: '/IMG/Holds/Hold09.png', top: '55%', left: '20%' },
-  { name: '언더클링 (Undercling)', image: '/IMG/Holds/Hold10.png', top: '55%', left: '40%' },
-  { name: '사이드풀 (Sidepull)', image: '/IMG/Holds/Hold11.png', top: '55%', left: '60%' },
-  { name: '가스통 (Gaston)', image: '/IMG/Holds/Hold12.png', top: '55%', left: '80%' },
-  { name: '볼륨 (Volume)', image: '/IMG/Holds/Hold13.png', top: '75%', left: '30%' },
-  { name: '핀치볼륨 (Pinch Volume)', image: '/IMG/Holds/Hold14.png', top: '75%', left: '70%'},
+  { name: '저그 (Jug)', image: './IMG/Holds/Hold01.png', top: '15%', left: '20%' },
+  { name: '크림프 (Crimp)', image: './IMG/Holds/Hold02.png', top: '15%', left: '40%' },
+  { name: '오픈 크림프 (Open Crimp)', image: './IMG/Holds/Hold03.png', top: '15%', left: '60%' },
+  { name: '핀치 (Pinch)', image: './IMG/Holds/Hold04.png', top: '15%', left: '80%' },
+  { name: '슬로퍼 (Sloper)', image: './IMG/Holds/Hold05.png', top: '35%', left: '20%' },
+  { name: '엣지 (Edge)', image: './IMG/Holds/Hold06.png', top: '35%', left: '40%' },
+  { name: '레일 (Rail)', image: './IMG/Holds/Hold07.png', top: '35%', left: '60%' },
+  { name: '포켓 (Pocket)', image: '/.IMG/Holds/Hold08.png', top: '35%', left: '80%' },
+  { name: '플랫 (Flat)', image: './IMG/Holds/Hold09.png', top: '55%', left: '20%' },
+  { name: '언더클링 (Undercling)', image: './IMG/Holds/Hold10.png', top: '55%', left: '40%' },
+  { name: '사이드풀 (Sidepull)', image: './IMG/Holds/Hold11.png', top: '55%', left: '60%' },
+  { name: '가스통 (Gaston)', image: './IMG/Holds/Hold12.png', top: '55%', left: '80%' },
+  { name: '볼륨 (Volume)', image: './IMG/Holds/Hold13.png', top: '75%', left: '30%' },
+  { name: '핀치볼륨 (Pinch Volume)', image: './IMG/Holds/Hold14.png', top: '75%', left: '70%'},
 ];
 
 // 실제 위치 좌표
@@ -49,7 +49,7 @@ const Hold = () => {
       {/* 배너 영역 */}
       <section>
         <img
-          src="/IMG/Banner/HoldBanner.png"
+          src="./IMG/Banner/HoldBanner.png"
           alt="Banner"
           style={styles.banner}
         />
@@ -138,7 +138,7 @@ const styles = {
     position: 'relative',
     width: '100%',
     height: '200vh',
-    backgroundImage: 'url("/IMG/HoldBoard.png")',
+    backgroundImage: 'url("./IMG/HoldBoard.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     margin: '15vw auto 0'

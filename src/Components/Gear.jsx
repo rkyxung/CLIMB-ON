@@ -7,73 +7,73 @@ export const Shoes = [
     name: '드라고 XT',
     brand: 'SCARPA',
     price: '265,000',
-    image: '/IMG/Shoes/XT.png'
+    image: './IMG/Shoes/XT.png'
   },
   {
     name: '로버',
     brand: 'MAD ROCK',
     price: '119,000',
-    image: '/IMG/Shoes/ROVER.png'
+    image: './IMG/Shoes/ROVER.png'
   },
   {
     name: '이아티 (IATI)',
     brand: 'TENAYA',
     price: '218,000',
-    image: '/IMG/Shoes/IATI.png'
+    image: './IMG/Shoes/IATI.png'
   },
   {
     name: '벨로체',
     brand: 'SCARPA',
     price: '210,000',
-    image: '/IMG/Shoes/VELOCE.png'
+    image: './IMG/Shoes/VELOCE.png'
   },
   {
     name: '드리프터',
     brand: 'MAD ROCK',
     price: '109,000',
-    image: '/IMG/Shoes/DRIFTER.png'
+    image: './IMG/Shoes/DRIFTER.png'
   },
   {
     name: '오아시 (OASI)',
     brand: 'TENAYA',
     price: '210,000',
-    image: '/IMG/Shoes/OASI.png'
+    image: './IMG/Shoes/OASI.png'
   },
   {
     name: '퓨리아 에어',
     brand: 'SCARPA',
     price: '260,000',
-    image: '/IMG/Shoes/AIR.png'
+    image: './IMG/Shoes/AIR.png'
   },
   {
     name: '드론 컴프 HV',
     brand: 'MAD ROCK',
     price: '169,000',
-    image: '/IMG/Shoes/HV.png'
+    image: './IMG/Shoes/HV.png'
   },
   {
     name: '인달로 (INDALO)',
     brand: 'TENAYA',
     price: '229,000',
-    image: '/IMG/Shoes/INDALO.png'
+    image: './IMG/Shoes/INDALO.png'
   },
   {
     name: '인스팅트 VSR',
     brand: 'SCARPA',
     price: '255,000',
-    image: '/IMG/Shoes/VSR.png'
+    image: './IMG/Shoes/VSR.png'
   },
   {
     name: '샤크 3 LV',
     brand: 'MAD ROCK',
     price:' 165,000',
-    image: '/IMG/Shoes/LV3.png'
+    image: './IMG/Shoes/LV3.png'
   },
   {
     name: '탄타 (TANTA)',
     brand: 'TENAYA',
     price: '128,000',
-    image: '/IMG/Shoes/TANTA.png'
+    image: './IMG/Shoes/TANTA.png'
   }
 ];
 
@@ -82,73 +82,73 @@ export const Chalks = [
     name: '초크 레볼 250g',
     brand: '오손',
     price: '25,000',
-    image: '/IMG/Chalks/chalk01.png'
+    image: './IMG/Chalks/chalk01.png'
   },
   {
     name: '제로티티 200g',
     brand: '도쿄파우더',
     price: '28,000',
-    image: '/IMG/Chalks/chalk02.png'
+    image: './IMG/Chalks/chalk02.png'
   },
   {
     name: '파워크러치 300g',
     brand: '패츌',
     price: '210,000',
-    image: '/IMG/Chalks/chalk03.png'
+    image: './IMG/Chalks/chalk03.png'
   },
   {
     name: '퓨어초크 350g',
     brand: '와일드 컨트리',
     price: '23,000',
-    image: '/IMG/Chalks/chalk04.png'
+    image: './IMG/Chalks/chalk04.png'
   },
   {
     name: 'DRY 5 300g',
     brand: '락 테크놀로지',
     price: '22,000',
-    image: '/IMG/Chalks/chalk05.png'
+    image: './IMG/Chalks/chalk05.png'
   },
   {
     name: '초크 크럼블 200g',
     brand: '배암',
     price: '18,000',
-    image: '/IMG/Chalks/chalk06.png'
+    image: './IMG/Chalks/chalk06.png'
   },
   {
     name: '고릴라 그립 142g',
     brand: '프렌션 짐',
     price: '22,000',
-    image: '/IMG/Chalks/chalk07.png'
+    image: './IMG/Chalks/chalk07.png'
   },
   {
     name: '바위 초크 250g',
     brand: '바위',
     price: '18,000',
-    image: '/IMG/Chalks/chalk08.png'
+    image: './IMG/Chalks/chalk08.png'
   },
   {
     name: 'CL 암벽초크 200g',
     brand: 'CL',
     price: '12,000',
-    image: '/IMG/Chalks/chalk09.png'
+    image: './IMG/Chalks/chalk09.png'
   },
   {
     name: '오손 액상초크',
     brand: '오손',
     price: '18,000',
-    image: '/IMG/Chalks/chalk10.png'
+    image: './IMG/Chalks/chalk10.png'
   },
   {
     name: '액상초크',
     brand: '엘리베이트',
     price: '18,000',
-    image: '/IMG/Chalks/chalk11.png'
+    image: './IMG/Chalks/chalk11.png'
   },
   {
     name: '굿초크 액상초크',
     brand: '굿초크',
     price: '15,000',
-    image: '/IMG/Chalks/chalk12.png'
+    image: './IMG/Chalks/chalk12.png'
   }
 ];
 
@@ -157,73 +157,73 @@ export const Accessories = [
     name: '포톤 에코',
     brand: '트랑고',
     price: '29,000',
-    image: '/IMG/Accessories/Accessory01.png'
+    image: './IMG/Accessories/Accessory01.png'
   },
   {
     name: '사가 초크백',
     brand: '페츨',
     price: '43,000',
-    image: '/IMG/Accessories/Accessory02.png'
+    image: './IMG/Accessories/Accessory02.png'
   },
   {
     name: '플린트 초크백',
     brand: '8B PLUS',
     price: '50,000',
-    image: '/IMG/Accessories/Accessory03.png'
+    image: './IMG/Accessories/Accessory03.png'
   },
   {
     name: '텔레스코피',
     brand: '디우드스톡',
     price: '116,000',
-    image: '/IMG/Accessories/Accessory04.png'
+    image: './IMG/Accessories/Accessory04.png'
   },
   {
     name: '우든 홀드 브러쉬',
     brand: '그리벨',
     price: '22,000',
-    image: '/IMG/Accessories/Accessory05.png'
+    image: './IMG/Accessories/Accessory05.png'
   },
   {
     name: '90×13 홀드 브러쉬',
     brand: '파모',
     price: '5,500',
-    image: '/IMG/Accessories/Accessory06.png'
+    image: './IMG/Accessories/Accessory06.png'
   },
   {
     name: 'CRIMP 13 테이프',
     brand: '테이퍼스',
     price: '2,800',
-    image: '/IMG/Accessories/Accessory07.png'
+    image: './IMG/Accessories/Accessory07.png'
   },
   {
     name: '클라이밍 테이프',
     brand: '부토라 추파',
     price: '6,500',
-    image: '/IMG/Accessories/Accessory08.png'
+    image: './IMG/Accessories/Accessory08.png'
   },
   {
     name: '스포츠 테이프',
     brand: '엘란드',
     price: '7,900',
-    image: '/IMG/Accessories/Accessory09.png'
+    image: './IMG/Accessories/Accessory09.png'
   },
   {
     name: '포어암',
     brand: '블랙다이아몬드',
     price: '16,000',
-    image: '/IMG/Accessories/Accessory10.png'
+    image: './IMG/Accessories/Accessory10.png'
   },
   {
     name: 'CL4 볼더링 장갑',
     brand: 'CL4',
     price: '40,000',
-    image: '/IMG/Accessories/Accessory11.png'
+    image: './IMG/Accessories/Accessory11.png'
   },
   {
     name: '핑거스트레칭 연습기',
     brand: '파워볼',
     price: '4,400',
-    image: '/IMG/Accessories/Accessory12.png'
+    image: './IMG/Accessories/Accessory12.png'
   }
 ];
 

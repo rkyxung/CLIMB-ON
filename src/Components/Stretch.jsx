@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 
 const bodypartStretch = [
-  { name: "손목 스트레칭", image: "/IMG/Stretch/part01.png" },
-  { name: "어깨 스트레칭", image: "/IMG/Stretch/part02.png" },
-  { name: "허리 스트레칭", image: "/IMG/Stretch/part03.png" },
-  { name: "고관절 스트레칭", image: "/IMG/Stretch/part04.png" },
-  { name: "종아리 스트레칭", image: "/IMG/Stretch/part05.png" },
-  { name: "발목 스트레칭", image: "/IMG/Stretch/part06.png" },
-  { name: "등 스트레칭", image: "/IMG/Stretch/part07.png" },
-  { name: "목 스트레칭 (좌우)", image: "/IMG/Stretch/part08.png" },
-  { name: "목 스트레칭 (앞뒤)", image: "/IMG/Stretch/part09.png" }
+  { name: "손목 스트레칭", image: "./IMG/Stretch/part01.png" },
+  { name: "어깨 스트레칭", image: "./IMG/Stretch/part02.png" },
+  { name: "허리 스트레칭", image: "./IMG/Stretch/part03.png" },
+  { name: "고관절 스트레칭", image: "./IMG/Stretch/part04.png" },
+  { name: "종아리 스트레칭", image: "./IMG/Stretch/part05.png" },
+  { name: "발목 스트레칭", image: "./IMG/Stretch/part06.png" },
+  { name: "등 스트레칭", image: "./IMG/Stretch/part07.png" },
+  { name: "목 스트레칭 (좌우)", image: "./IMG/Stretch/part08.png" },
+  { name: "목 스트레칭 (앞뒤)", image: "./IMG/Stretch/part09.png" }
 ];
 
 const purposeStretch = [
-  { name: "준비운동용 스트레칭", image: "/IMG/Stretch/purpose01.png" },
-  { name: "회복용 스트레칭", image: "/IMG/Stretch/purpose02.png" },
-  { name: "유연성 향상 스트레칭", image: "/IMG/Stretch/purpose03.png" },
-  { name: "통증 완화 스트레칭", image: "/IMG/Stretch/purpose04.png" },
-  { name: "긴장 완화 스트레칭", image: "/IMG/Stretch/purpose05.png" },
-  { name: "집중력 향상 스트레칭", image: "/IMG/Stretch/purpose06.png" }
+  { name: "준비운동용 스트레칭", image: "./IMG/Stretch/purpose01.png" },
+  { name: "회복용 스트레칭", image: "./IMG/Stretch/purpose02.png" },
+  { name: "유연성 향상 스트레칭", image: "./IMG/Stretch/purpose03.png" },
+  { name: "통증 완화 스트레칭", image: "./IMG/Stretch/purpose04.png" },
+  { name: "긴장 완화 스트레칭", image: "./IMG/Stretch/purpose05.png" },
+  { name: "집중력 향상 스트레칭", image: "./IMG/Stretch/purpose06.png" }
 ];
 
 const Stretch = () => {
@@ -71,7 +71,7 @@ const Stretch = () => {
                     onClick={() => handleLike(item)}
                   >
                     <img 
-                      src={isLiked(item.name) ? '/IMG/heart.png' : '/IMG/heart_Empty.png'} 
+                      src={isLiked(item.name) ? './IMG/heart.png' : './IMG/heart_Empty.png'} 
                       alt="heart" 
                       style={styles.heartIcon}
                     />
@@ -89,7 +89,7 @@ const Stretch = () => {
     <div>
       <section>
         <img
-          src="/IMG/Banner/StretchBanner.png"
+          src="./IMG/Banner/StretchBanner.png"
           alt="Banner"
           style={styles.banner}
         />

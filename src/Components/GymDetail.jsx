@@ -47,7 +47,7 @@ const GymDetail = () => {
           <div style={styles.imageSection}>
             <div style={styles.imageContainer}>
               <img
-                src="/IMG/Gyms_seoul/Seoul01.png"
+                src="./IMG/Gyms_seoul/Seoul01.png"
                 alt="서울숲 영등포점"
                 style={styles.gymImage}
               />

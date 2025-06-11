@@ -5,62 +5,62 @@ import { useLike } from './LikeContext';
 export const GymsSeoul = [
   {
     name: '서울숲',
-    image: '/IMG/Gyms_seoul/Seoul01.png',
+    image: './IMG/Gyms_seoul/Seoul01.png',
     address: '영등포점'
   },
   {
     name: '더클라임',
-    image: '/IMG/Gyms_seoul/Seoul02.png',
+    image: './IMG/Gyms_seoul/Seoul02.png',
     address: '홍대B점'
   },
   {
     name: '알레',
-    image: '/IMG/Gyms_seoul/Seoul03.png',
+    image: './IMG/Gyms_seoul/Seoul03.png',
     address: '혜화점'
   },
   {
     name: 'PEAKERS',
-    image: '/IMG/Gyms_seoul/Seoul04.png',
+    image: './IMG/Gyms_seoul/Seoul04.png',
     address: '종로점'
   },
   {
     name: '손상원',
-    image: '/IMG/Gyms_seoul/Seoul05.png',
+    image: './IMG/Gyms_seoul/Seoul05.png',
     address: '을지로점'
   },
   {
     name: '클라이밍파크',
-    image: '/IMG/Gyms_seoul/Seoul06.png',
+    image: './IMG/Gyms_seoul/Seoul06.png',
     address: '종로점'
   },
   {
     name: '더플라스틱',
-    image: '/IMG/Gyms_seoul/Seoul07.png',
+    image: './IMG/Gyms_seoul/Seoul07.png',
     address: '염창점'
   },
   {
     name: '락랜드',
-    image: '/IMG/Gyms_seoul/Seoul08.png',
+    image: './IMG/Gyms_seoul/Seoul08.png',
     address: '수유점'
   },
   {
     name: '드림캐쳐',
-    image: '/IMG/Gyms_seoul/Seoul09.png',
+    image: './IMG/Gyms_seoul/Seoul09.png',
     address: '노원점'
   },
   {
     name: '코알라',
-    image: '/IMG/Gyms_seoul/Seoul10.png',
+    image: './IMG/Gyms_seoul/Seoul10.png',
     address: '상암점'
   },
   {
     name: '훅',
-    image: '/IMG/Gyms_seoul/Seoul11.png',
+    image: './IMG/Gyms_seoul/Seoul11.png',
     address: '왕십리점'
   },
   {
     name: '온플릭',
-    image: '/IMG/Gyms_seoul/Seoul12.png',
+    image: './IMG/Gyms_seoul/Seoul12.png',
     address: '천호점'
   }
 ];
@@ -84,7 +84,7 @@ const Gym = () => {
       {/* 메인 배너 */}
       <section>
         <img
-          src="/IMG/Banner/GymBanner.png"
+          src="./IMG/Banner/GymBanner.png"
           alt="Banner"
           style={styles.banner}
         />
@@ -119,7 +119,7 @@ const Gym = () => {
                   onClick={() => handleLike(gym)}
                 >
                   <img 
-                    src={isLiked(gym.name, '암장') ? '/IMG/heart.png' : '/IMG/heart_Empty.png'}  
+                    src={isLiked(gym.name, '암장') ? './IMG/heart.png' : './IMG/heart_Empty.png'}  
                     alt="heart" 
                     style={styles.heartIcon}
                   />

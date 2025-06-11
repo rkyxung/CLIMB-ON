@@ -255,7 +255,7 @@ const MyPage = () => {
             <div style={styles.categoryGroup}>
               <h3 style={styles.existingLogsTitle}>
                 <img 
-                    src='/IMG/heart.png' 
+                    src='./IMG/heart.png' 
                     alt="heart" 
                     style={styles.heartIcon}
                   />
@@ -292,7 +292,7 @@ const MyPage = () => {
             <div style={styles.categoryGroup}>
               <h3 style={styles.existingLogsTitle}>
                 <img 
-                    src='/IMG/heart.png' 
+                    src='./IMG/heart.png' 
                     alt="heart" 
                     style={styles.heartIcon}
                   />
@@ -329,7 +329,7 @@ const MyPage = () => {
             <div style={styles.categoryGroup}>
               <h3 style={styles.existingLogsTitle}>
                 <img 
-                    src='/IMG/heart.png' 
+                    src='./IMG/heart.png' 
                     alt="heart" 
                     style={styles.heartIcon}
                   />

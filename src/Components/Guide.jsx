@@ -6,37 +6,37 @@ const Guide = () => {
   const items = [
     {
       label: 'Climbing shoes',
-      image: '/IMG/CheckList/shoe.png',
+      image: './/IMG/CheckList/shoe.png',
       desc: '발에 꼭 맞는 클라이밍화를 신어야 정확하고 섬세한 무브가 가능해요.\n렌탈도 가능하지만, 본인 발에 맞는 신발을 선택하는 것이 중요해요.\n특히 앞코의 감각이 루트 해결에 큰 영향을 줘요.'
     },
     {
       label: 'Chalk / Chalk Bag',
-      image: '/IMG/CheckList/chalk.png',
+      image: './IMG/CheckList/chalk.png',
       desc: '손의 땀을 잡아줘서 미끄러지지 않게 도와주는 필수 아이템이에요.\n초크가 없으면 손이 미끄러워서 제대로 힘을 주기 어려워요.\n초크백은 초크를 휴대하며 사용할 수 있도록 도와주는 작은 가방이에요.'
     },
     {
       label: 'Training Wear',
-      image: '/IMG/CheckList/clothes.png',
+      image: './IMG/CheckList/clothes.png',
       desc: '몸을 자유롭게 움직일 수 있도록 스트레칭이 잘 되는 옷이 좋아요.\n타이트하거나 두꺼운 옷은 동작을 방해할 수 있어요.\n팔과 다리의 움직임이 중요한 스포츠이기 때문에 편한 복장은 기본이에요.'
     },
     {
       label: 'Water Bottle',
-      image: '/IMG/CheckList/bottle.png',
+      image: './IMG/CheckList/bottle.png',
       desc: '클라이밍은 생각보다 많은 체력과 수분을 소모해요.\n자주 물을 마시며 탈수를 예방해야 퍼포먼스도 좋아지고 부상 위험도 줄어들어요.\n암장에 따라 물을 따로 파는 곳도 있으니 꼭 챙기세요.'
     },
     {
       label: 'Tape',
-      image: '/IMG/CheckList/tape.png',
+      image: './IMG/CheckList/tape.png',
       desc: '손가락 관절이나 손바닥 굳은살을 보호할 수 있는 유용한 도구예요.\n특히 손가락에 무리가 가는 동작이 많기 때문에 부상 예방용으로도 추천돼요.\n처음엔 어색할 수 있지만 익숙해지면 훨씬 도움이 돼요.'
     }
   ];
 
   // 암장 첫 방문 가이드 카드 데이터
   const guideItems = [
-    { title: '1', text: '신발 대여 + 준비 스트레칭', image: '/IMG/Guide/Guide01.png' },
-    { title: '2', text: '초보자용 루트 선택', image: '/IMG/Guide/Guide02.png' },
-    { title: '3', text: '암장 매너 지키기', image: '/IMG/Guide/Guide03.png' },
-    { title: '4', text: '도전! 실패해도 OK!', image: '/IMG/Guide/Guide04.png' }
+    { title: '1', text: '신발 대여 + 준비 스트레칭', image: './IMG/Guide/Guide01.png' },
+    { title: '2', text: '초보자용 루트 선택', image: './IMG/Guide/Guide02.png' },
+    { title: '3', text: '암장 매너 지키기', image: './IMG/Guide/Guide03.png' },
+    { title: '4', text: '도전! 실패해도 OK!', image: './IMG/Guide/Guide04.png' }
   ];
 
   // 체크박스 상태 관리
@@ -57,7 +57,7 @@ const Guide = () => {
     <div style={{ color: '#fff' }}> {/* 전체 텍스트 색상 */}
       {/* 배너 섹션 */}
       <section>
-        <img src="/IMG/Banner/BoulderingBanner.png" alt="Banner" style={styles.banner} />
+        <img src="./IMG/Banner/BoulderingBanner.png" alt="Banner" style={styles.banner} />
         <p style={styles.bannerTxt}>What<br />is<br />Bouldering</p>
         <p style={styles.bannerDescription}>
           볼더링은 4~5미터 높이의 벽을 로프 없이 등반하는 실내 클라이밍 종목입니다.<br />

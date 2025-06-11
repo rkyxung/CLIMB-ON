@@ -10,7 +10,7 @@ const HoldDetail = () => {
             {/* 홀드 타이틀 */}
             <div style={styles.titleSection}>
               <h1 style={styles.holdTitle}>저그 (Jug)</h1>
-              <p style={styles.holdType}>홀드</p>
+              <p style={styles.holdType}>크기 홀드</p>
             </div>
 
             {/* 홀드 정보 */}
@@ -48,7 +48,7 @@ const HoldDetail = () => {
           <div style={styles.imageSection}>
             <div style={styles.imageContainer}>
               <img
-                src="/IMG/Holds/Hold01.png"
+                src="./IMG/Holds/Hold01.png"
                 alt="저그 (Jug)"
                 style={styles.holdImage}
               />
