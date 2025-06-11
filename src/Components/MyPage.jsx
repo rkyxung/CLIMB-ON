@@ -783,8 +783,8 @@ const styles = {
   },
   videoModalContent: {
     position: 'relative',
-    maxWidth: '90%',
-    maxHeight: '90%',
+    maxWidth: '24%',
+    maxHeight: '100%',
     backgroundColor: '#333',
     borderRadius: '12px',
     overflow: 'hidden'

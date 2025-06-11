@@ -40,7 +40,6 @@ const holdPositions = [
 const Hold = () => {
   const [hoveredHold, setHoveredHold] = useState(null);
 
-  // handleHoldClick 함수는 더 이상 필요하지 않음 (Link 컴포넌트 사용)
 
   return (
     <div>
@@ -171,9 +170,9 @@ const styles = {
   },
   hoverText: {
     position: 'absolute',
-    top: '50%',
+    top: '-2vw',
     left: '50%',
-    transform: 'translate(-50%, -50%)',
+    transform: 'translate(-50%)',
     color: '#9CFF23',
     fontSize: '1vw',
     fontWeight: '700',
@@ -190,8 +189,8 @@ const styles = {
 const styleSheet = document.createElement('style');
 styleSheet.textContent = `
   @keyframes fadeIn {
-    from { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
-    to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    from { opacity: 0; transform: translate(-50%) scale(0.8); }
+    to { opacity: 1; transform: translate(-50%) scale(1); }
   }
 `;
 document.head.appendChild(styleSheet);

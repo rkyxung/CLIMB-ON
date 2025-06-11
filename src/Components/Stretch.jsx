@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const bodypartStretch = [
   { name: "손목 스트레칭", image: "./IMG/Stretch/part01.png" },
@@ -63,6 +64,10 @@ const Stretch = () => {
         <div key={idx} style={styles.grid}>
           {group.map((item, i) => (
             <div key={i} style={styles.cardContainer}>
+                  <Link 
+                    to= "/StretchDetail"  // 이동 경로 설정
+                   style={{ textDecoration: 'none', color: 'inherit' }} // 링크 스타일 초기화
+                  >
               <div style={styles.card}>
                 <div style={styles.imageContainer}>
                   <img src={item.image} alt={item.name} style={styles.image} />
@@ -79,6 +84,7 @@ const Stretch = () => {
                 </div>
               </div>
               <p style={styles.cardText}>{item.name}</p>
+              </Link>
             </div>
           ))}
         </div>
