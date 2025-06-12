@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CLIMB-ON/static/css/main.a1683d45.css",
-    "main.js": "/CLIMB-ON/static/js/main.94f0df34.js",
+    "main.js": "/CLIMB-ON/static/js/main.a01b8525.js",
     "static/js/453.3fd147c2.chunk.js": "/CLIMB-ON/static/js/453.3fd147c2.chunk.js",
     "index.html": "/CLIMB-ON/index.html",
     "main.a1683d45.css.map": "/CLIMB-ON/static/css/main.a1683d45.css.map",
-    "main.94f0df34.js.map": "/CLIMB-ON/static/js/main.94f0df34.js.map",
+    "main.a01b8525.js.map": "/CLIMB-ON/static/js/main.a01b8525.js.map",
     "453.3fd147c2.chunk.js.map": "/CLIMB-ON/static/js/453.3fd147c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1683d45.css",
-    "static/js/main.94f0df34.js"
+    "static/js/main.a01b8525.js"
   ]
 }
