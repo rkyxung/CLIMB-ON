@@ -75,7 +75,7 @@ const Main = () => {
         newCards.unshift(newCards.pop());
         return newCards;
       });
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(gymInterval);
   }, []);
@@ -88,7 +88,7 @@ const Main = () => {
         newCards.unshift(newCards.pop());
         return newCards;
       });
-    }, 3500); // 약간 다른 속도로 비동기화
+    }, 2000); // 약간 다른 속도로 비동기화
 
     return () => clearInterval(shoeInterval);
   }, []);
